@@ -530,6 +530,10 @@ span.user-avatar {
 	section.page-title header {
 		margin:0;
 	}
+	section.page-title h1 {
+		font-size: 2.2em;
+		line-height: 42px;
+	}
 
 	section.page-title ul.breadcrumb {
 		display:block;
@@ -695,6 +699,9 @@ ul.search-history {
 	position:absolute;
 	left:23px; top:8px;
 }
+
+
+
 
 
 /**	06. Maps
@@ -1621,11 +1628,14 @@ li.comment a.comment-author span {
 }
 
 @media only screen and (max-width: 990px) {
-
 }
 
 @media only screen and (max-width: 768px) {
-
+	#header.sticky #topNav {
+		max-height: 300px;
+		overflow-y: auto;
+		width:100%;
+	}
 }
 
 @media only screen and (max-width: 480px) {

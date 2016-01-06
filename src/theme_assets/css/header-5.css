@@ -283,6 +283,10 @@ body.boxed #topBar {
 	font-size:13px;
 }
 
+#topNav ul.nav>li.mega-menu div.row {
+	width:100%;
+}
+
 #topNav ul.nav>li.mega-menu div {
 	display:table;
 }

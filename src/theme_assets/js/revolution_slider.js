@@ -152,7 +152,7 @@ jQuery(document).ready(function() {
 					navigationHAlign:"center",
 					navigationVAlign:"bottom",
 					navigationHOffset:0,
-					navigationVOffset:10,
+					navigationVOffset:30,
 
 					soloArrowLeftHalign:"left",
 					soloArrowLeftValign:"center",
