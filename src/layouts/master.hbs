@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!--[if IE 8]>			<html class="ie ie8"> <![endif]-->
+<!--[if IE 9]>			<html class="ie ie9"> <![endif]-->
+<!--[if gt IE 9]><!-->	<html> <!--<![endif]-->
+	<head>
+		{{> head}}
+	</head>
+
+	<!--
+		Available body classes:
+			smoothscroll			= enable chrome browser smooth scroll
+			grey 					= grey content background
+			boxed 					= boxed style
+			pattern1 ... pattern10 	= background pattern
+
+		Background Image - add to body:
+			data-background="/theme_assets/images/boxed_background/1.jpg"
+	-->
+	<body class="{{ page.body_classes }} smoothscroll">
+
+		<div id="wrapper">
+			{{> header}}
+			{{> body }}
+			{{> footer }}
+
+			<a href="#" id="toTop"></a>
+
+		</div><!-- /#wrapper -->
+
+		{{> scripts}}
+		{{> reactive_badge}}
+
+	</body>
+</html>
